@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.lg-image-nf {
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-image-nf {
+    height: 400px;
+  }
+}
+
+.lost-text {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.lost-description-text {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .lost-text {
+    font-size: 30px;
+  }
+
+  .lost-description-text {
+    font-size: 25px;
+  }
+}

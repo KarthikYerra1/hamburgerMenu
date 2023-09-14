@@ -1,0 +1,96 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-bottom-color: #616e7c;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding: 30px;
+  }
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  border-style: none;
+}
+
+.website-logo {
+  height: 60px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cross-icon-container {
+  text-align: right;
+  outline: none;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.cross-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+  height: 50px;
+  width: 70px;
+}
+
+.content-icon {
+  font-size: 40px;
+}
+
+.content-icon-cross {
+  font-size: 40px;
+  color: #616e7c;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-text {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.link-container {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  width: 70px;
+  border-style: none;
+}
+
+.menu {
+  font-size: 30px;
+}
